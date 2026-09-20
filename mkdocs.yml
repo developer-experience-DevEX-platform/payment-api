@@ -1,0 +1,8 @@
+site_name: 'payment-api'
+site_description: 'handles payment api request'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-api
+  description: handles payment api request
+  annotations:
+    github.com/project-slug: developer-experience-DevEX-platform/payment-api
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/developer-experience-DevEX-platform/payment-api/
+  links:
+    - title: Repository
+      url: https://github.com/developer-experience-DevEX-platform/payment-api
+    - title: Staging GitOps
+      url: https://github.com/developer-experience-DevEX-platform/platform-gitops/tree/main/environments/staging/payment-api
+    - title: Production GitOps
+      url: https://github.com/developer-experience-DevEX-platform/platform-gitops/tree/main/environments/production/payment-api
+    - title: Infrastructure stack
+      url: https://github.com/developer-experience-DevEX-platform/platform-infrastructure/tree/main/services/payment-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/developer-experience

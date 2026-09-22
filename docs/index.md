@@ -7,6 +7,9 @@ Owner: `group:default/developer-experience`
 This page is the TechDocs home for the service. GitHub still uses the
 repository README.
 
+A [pipeline check](pipeline-check.md) page was added to prove a docs
+change publishes to TechDocs. Marker: `techdocs-pipeline-check-2026-09-22`.
+
 ## Local environment
 
 Copy `.env.example` to `.env`. A pre-commit hook rejects `.env` files; `.env.example` is allowed.
